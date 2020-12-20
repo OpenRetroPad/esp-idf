@@ -12,7 +12,7 @@
 
 [submodule "components/coap/libcoap"]
 	path = components/coap/libcoap
-	url = https://github.com/obgm/libcoap.git
+	url = https://github.com/OpenRetroPad/libcoap.git
 
 [submodule "components/nghttp/nghttp2"]
 	path = components/nghttp/nghttp2
