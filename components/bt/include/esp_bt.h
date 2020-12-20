@@ -88,6 +88,8 @@ the adv packet will be discarded until the memory is restored. */
     #define MESH_DUPLICATE_SCAN_CACHE_SIZE          0
 #endif
 
+#define CONFIG_BTDM_CONTROLLER_MODE_BR_EDR_ONLY y
+
 #if defined(CONFIG_BTDM_CONTROLLER_MODE_BLE_ONLY)
 #define BTDM_CONTROLLER_MODE_EFF                    ESP_BT_MODE_BLE
 #elif defined(CONFIG_BTDM_CONTROLLER_MODE_BR_EDR_ONLY)
